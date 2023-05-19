@@ -1,15 +1,170 @@
-<head>
-    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<title>投稿</title>
-	<link rel="icon" type="image/png" sizes="72x72" href="icon.png"/>
-<div class="alert alert-info">我们的服务器官网【<a href="https://1a2b-3c-4d.github.io/nybz/index.html" target="_blank">2B2T】</div>
-	<div class="alert alert-danger">XGP不值得盗号!</div>
-		<div class="alert alert-warning">投稿邮箱640153870@qq.com<br>反馈邮箱640153870@qq.com</div>
-		<div class="alert alert-info"> 别管我！【<a href="BP.html" target="_blank" >我要白嫖！</a>】</div>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ps:minecarft</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" sizes="72x72" href="images/icon.png"/>
 
 
 
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      function feedback_submit()
+      {
+        var f = document.feedback_info;
+        var head = f.head.value;
+        var email = f.email.value;
+        var sel = f.sel.value;
+        var msg = f.msg.value;
+        var getStr  = "head="+ head +"&email="+ email +"&sel="+ sel + "&msg=" + msg;
+
+        if (window.XMLHttpRequest)
+        {
+          // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+          xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+          // IE6, IE5 浏览器执行代码
+          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+          if (xmlhttp.readyState===4 && xmlhttp.status===200)
+          {
+            if (xmlhttp.responseText==="[OK] 已成功提交，感谢您对简幻欢的支持！"){
+              $("#Submit").hide()
+            }
+            document.getElementById("ajax_data").innerHTML=xmlhttp.responseText;
+          }
+        }
+        xmlhttp.open("GET","feedback_upload.php?"+getStr,true);
+        xmlhttp.send();
+      }
+    </script>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">minecarft TOOL</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav ml-auto">
+	        <li class="nav-item active"><a href="index.html" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="https://1a2b-3c-4d.github.io/nybz/about.html" class="nav-link">文档</a></li>
+	          <li class="nav-item"><a href="https://space.bilibili.com/1318054047?spm_id_from=333.1007.0.0" target="_blank" class="nav-link">视频</a></li>
+	          <li class="nav-item"><a href="https://1a2b-3c-4d.github.io/nybz/index.html" class="nav-link">我们的服务器网站</a></li>
+			 <li class="nav-item"><a href="https://weiweiaigaoshi.github.io/lianguei/" class="nav-link">我们朋友的服务器网站</a></li>
+	          <li class="nav-item cta"><a href="PS.html" class="nav-link"><span>我要白嫖！</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-start">
+          <div class="col-md-8 ftco-animate text-center text-md-left mb-5">
+            <!-- 	<p class="breadcrumbs mb-0"><span class="mr-3"><a href="index.html">主页 <i class="ion-ios-arrow-forward"></i></a></span> <span>合作与反馈</span></p> -->
+             <h1 class="mb-3 bread">关于</h1>
+           </div>
+         </div>
+       </div>
+     </div>
+
+         <section class="ftco-section contact-section ftco-degree-bg">
+       <div class="container">
+         <div class="row d-flex mb-5 contact-info">
+           <div class="col-md-12 mb-4">
+             <h2 class="h4">联系方式:</h2>
+             <h3>QQ:640153870</h3>
+            <h3>B站:MC_北辕南辙</h3>
+<a>XGP不值得盗号！</a><br>
+<a>密码统一下XGP11779</a><br>
+<a href="BP.html">OK</a>
+           </div>
+           <div class="w-100"></div>
 
 
-</head>
+
+         </div>
+
+       </div>
+     </section>
+
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">minecarft TOOL</h2>
+                <p>自2023年以来，我们一直致力于为用户提供免费，低延迟的账号解决方案。对于一般的联机，不再需要向别的服务商支付过高的月费。成千上万的用户使用我们的项目进行游戏联机。</p>
+
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">关注我们</h2>
+                <ul class="list-unstyled">
+                  <li><a href="https://space.bilibili.com/1318054047?spm_id_from=333.1007.0.0"  target="_blank" class="py-2 d-block">Bilibili</a></li>
+                  <li><a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=orQCoxC1GpG8J6vZnXIKcUnXHI0PsgUy&authKey=M6wMHnK8XVm1VnX5xFUuM9I9Q39mLDmBV%2BbpumamEeivZBaiGG1IZqt4zIzEH6kJ&noverify=0&group_code=762538734"  target="_blank" class="py-2 d-block">QQ群</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">相关教学视频</h2>
+                <ul class="list-unstyled">
+                  <li><a>没做，再问剁手</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-left">
+
+              <p>Copyright &copy; 2023-114514|minecarft TOOL</div>   <div class="col-md">  <a target="_blank" href="https://beian.miit.gov.cn/">SB ICP备114514号</a></p></div>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+
+
+   <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
